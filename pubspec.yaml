@@ -35,7 +35,7 @@ dependencies:
   
   dio: 4.0.4
   equatable: 2.0.3
-  fl_chart: 0.45.0
+  fl_chart: 0.45.1
 
   flutter:
     sdk: flutter
