@@ -1,19 +1,10 @@
-import 'package:cryptochart/chart_page.dart';
+import 'package:cryptochart/crypto_chart_app.dart';
+import 'package:cryptochart/utils/locator.dart';
+import 'package:equatable/equatable.dart';
 import 'package:flutter/material.dart';
 
 void main() {
+  EquatableConfig.stringify = true;
+  setupServiceLocator();
   runApp(const CryptoChartApp());
-}
-
-class CryptoChartApp extends StatelessWidget {
-  const CryptoChartApp({Key? key}) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Cryptocurrency Chart',
-      theme: ThemeData(primarySwatch: Colors.blue),
-      home: ChartPage(),
-    );
-  }
 }

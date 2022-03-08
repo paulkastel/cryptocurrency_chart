@@ -263,6 +263,15 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.0.1"
+  miquido_flutter_lints:
+    dependency: "direct dev"
+    description:
+      path: "."
+      ref: main
+      resolved-ref: ea302e34f4491262e059d2213b524bee81a0c398
+      url: "https://github.com/miquido/miquido_flutter_lints.git"
+    source: git
+    version: "0.0.0"
   mockingjay:
     dependency: "direct dev"
     description:
@@ -325,7 +334,7 @@ packages:
       name: pub_semver
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "2.1.0"
+    version: "2.1.1"
   shelf:
     dependency: transitive
     description:

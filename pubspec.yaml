@@ -50,6 +50,11 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
 
+  miquido_flutter_lints:
+    git:
+      url: https://github.com/miquido/miquido_flutter_lints.git
+      ref: main
+      
   mockingjay: 0.2.0
   mocktail: 0.2.0
   
