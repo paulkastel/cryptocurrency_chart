@@ -16,7 +16,7 @@ class TimeHeader extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.symmetric(vertical: 5),
       child: Text(
-        '${_getFormatted(_dataset.timeFrom)} - ${_getFormatted(_dataset.timeFrom)}',
+        '${_getFormatted(_dataset.timeFrom)} - ${_getFormatted(_dataset.timeTo)}',
         style: Theme.of(context).textTheme.subtitle1,
       ),
     );

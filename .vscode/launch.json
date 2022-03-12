@@ -18,6 +18,49 @@
       "type": "dart",
       "program": "test",
       "noDebug": true
+    },
+    {
+      "name": "RUN-IPHONE",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main.dart",
+      "flutterMode": "debug",
+      "deviceId": "74F6FA82-20B8-44B2-A367-243AFBB3905C",
+    },
+    {
+      "name": "RUN-ANDROID",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main.dart",
+      "flutterMode": "debug",
+      "deviceId": "emulator-5554",
+    },
+    {
+      "name": "RUN-MAC",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main.dart",
+      "flutterMode": "debug",
+      "deviceId": "macos",
+    },
+    {
+      "name": "RUN-WEB",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main.dart",
+      "flutterMode": "debug",
+      "deviceId": "chrome",
+    },
+  ],
+  "compounds": [
+    {
+      "name": "RUN ALL",
+      "configurations": [
+        "RUN-ANDROID",
+        "RUN-IPHONE",
+        "RUN-MAC",
+        "RUN-WEB",
+      ],
     }
   ]
 }

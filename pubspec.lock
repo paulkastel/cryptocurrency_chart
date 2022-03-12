@@ -15,6 +15,20 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.8.0"
+  analyzer_plugin:
+    dependency: transitive
+    description:
+      name: analyzer_plugin
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.8.0"
+  ansicolor:
+    dependency: transitive
+    description:
+      name: ansicolor
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "2.0.1"
   args:
     dependency: transitive
     description:
@@ -106,6 +120,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "3.0.1"
+  csslib:
+    dependency: transitive
+    description:
+      name: csslib
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.17.1"
   cupertino_icons:
     dependency: "direct main"
     description:
@@ -113,6 +134,20 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.0.2"
+  dart_code_metrics:
+    dependency: transitive
+    description:
+      name: dart_code_metrics
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "4.12.0"
+  dart_style:
+    dependency: transitive
+    description:
+      name: dart_style
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "2.2.1"
   diff_match_patch:
     dependency: transitive
     description:
@@ -193,6 +228,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.0.2"
+  html:
+    dependency: transitive
+    description:
+      name: html
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.15.0"
   http_multi_server:
     dependency: transitive
     description:
@@ -268,10 +310,10 @@ packages:
     description:
       path: "."
       ref: main
-      resolved-ref: ea302e34f4491262e059d2213b524bee81a0c398
+      resolved-ref: "289ce02e984f3f975bb96ded274b11bb07ed8748"
       url: "https://github.com/miquido/miquido_flutter_lints.git"
     source: git
-    version: "0.0.0"
+    version: "0.1.0"
   mockingjay:
     dependency: "direct dev"
     description:
